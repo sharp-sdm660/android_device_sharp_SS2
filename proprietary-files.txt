@@ -171,6 +171,15 @@ vendor/lib/libchromatix_s5k4h8_s2p_video_4k.so
 vendor/lib/libchromatix_s5k4h8_s2p_zsl_preview_3a.so
 vendor/lib/libchromatix_s5k4h8_s2p_zsl_video_3a.so
 
+# Camera - (mmcamera)
+vendor/lib/libmmcamera_s5k2l7sa_s2p.so|7d9eaa05c3eec699cb43be61a4149661bd1e5fde
+vendor/lib/libmmcamera_s5k2l7sa_s2p_m24c64s_eeprom.so|75c78041b5cc9ee7151e7efd755582c4dcba3938
+vendor/lib/libmmcamera_s5k3h7_s2p.so|54697f7b6f3617e1857a5363ae7641620a21abe1
+vendor/lib/libmmcamera_s5k3h7_s2p_chicony_eeprom.so|733979c88978f62771c001af26f7f5512788db66
+vendor/lib/libmmcamera_s5k4h8_s2p.so|3fc412cea0b9b337748f2373f4ce482bb991e09f
+vendor/lib/libmmcamera_s5k4h8_s2p_m24c64t_eeprom.so|f2c998c21e845b3fc479a2eda241c3c64daf7245
+vendor/lib/libmmcamera2_sensor_modules.so|cb3b69c15b2998d17b26f60202f7e475d5746c18
+
 # Camera (Module) - From - HH6_00WW_FIH-user-10-QKQ1.190828.002-FS8032T0305Q-release-keys
 vendor/lib/hw/camera.sdm660.so|0ef02e017b2085342f75830c859c40bda4d4d7b4
 
