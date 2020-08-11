@@ -181,7 +181,7 @@ vendor/lib/libmmcamera_s5k4h8_s2p_m24c64t_eeprom.so|f2c998c21e845b3fc479a2eda241
 vendor/lib/libmmcamera2_sensor_modules.so|cb3b69c15b2998d17b26f60202f7e475d5746c18
 
 # Camera (Module) - From - HH6_00WW_FIH-user-10-QKQ1.190828.002-FS8032T0305Q-release-keys
-vendor/lib/hw/camera.sdm660.so|0ef02e017b2085342f75830c859c40bda4d4d7b4
+vendor/lib/hw/camera.sdm660.so|42c0cdb3590faef90b58c6b12a9ec4e2108edead
 vendor/lib/libmmcamera_stillmore_lib.so|72ddda5608ee9f2d14f3e7321c992c3aa3dbdcf7
 
 # Charger
