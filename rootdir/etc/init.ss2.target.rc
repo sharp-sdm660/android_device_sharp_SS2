@@ -1,0 +1,42 @@
+on early-boot
+    # set property ro.hardware.fingerprint for vendor HAL library load
+    setprop ro.hardware.fingerprint fpc
+
+	setprop ro.hardware.nfc_nci nqx.default
+
+on post-fs-data
+    mkdir /data/fpc 0700 system system
+    chown system system /sys/devices/soc/soc:fpc1020/irq
+    chown system system /sys/devices/soc/soc:fpc1020/wakeup_enable
+
+    mkdir /data/nfc
+    mkdir /etc/param
+    setprop persist.nfc.support true
+
+on boot
+    # permission for NFC
+    setprop ro.nfc.port "I2C"
+    chmod 0660 /dev/nq-nci
+    chown nfc nfc /dev/nq-nci
+
+on property:debug.sys.fqcfingerprint=1
+	start fqcfingerprint
+
+service fqcfingerprint /vendor/bin/fqcfingerprint
+	user root
+	oneshot
+	disabled
+
+service fps_fpc_hal /vendor/bin/hw/android.hardware.biometrics.fpc@2.1-service
+    # "class hal" causes a race condition on some devices due to files created
+    # in /data. As a workaround, postpone startup until later in boot once
+    # /data is mounted.
+    class late_start
+    user system
+    group system uhid input
+
+#remosaic Samsung 
+service remosaic_daemon /system/vendor/bin/remosaic_daemon
+    class late_start
+    user camera
+    group camera

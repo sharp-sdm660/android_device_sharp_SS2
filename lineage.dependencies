@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "android_device_sharp_sdm660-common",
+    "target_path": "device/sharp/sdm660-common"
+  }
+]
