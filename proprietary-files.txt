@@ -171,6 +171,9 @@ vendor/lib/libchromatix_s5k4h8_s2p_video_4k.so
 vendor/lib/libchromatix_s5k4h8_s2p_zsl_preview_3a.so
 vendor/lib/libchromatix_s5k4h8_s2p_zsl_video_3a.so
 
+# Camera (Module) - From - HH6_00WW_FIH-user-10-QKQ1.190828.002-FS8032T0305Q-release-keys
+vendor/lib/hw/camera.sdm660.so|0ef02e017b2085342f75830c859c40bda4d4d7b4
+
 # Charger
 vendor/bin/hvdcp_opti
 
