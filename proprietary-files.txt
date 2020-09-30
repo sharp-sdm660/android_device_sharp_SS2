@@ -180,6 +180,9 @@ vendor/lib/libmmcamera_s5k4h8_s2p.so|3fc412cea0b9b337748f2373f4ce482bb991e09f
 vendor/lib/libmmcamera_s5k4h8_s2p_m24c64t_eeprom.so|f2c998c21e845b3fc479a2eda241c3c64daf7245
 vendor/lib/libmmcamera2_sensor_modules.so|cb3b69c15b2998d17b26f60202f7e475d5746c18
 
+# Camera - (mmcamera) - From - Motorola PPWS29.116-20-2
+vendor/lib/libmmcamera_trueportrait_lib.so|474dd18c5e41d436c6db48c614ab645097ca6c34
+
 # Camera (Module) - From - HH6_00WW_FIH-user-10-QKQ1.190828.002-FS8032T0305Q-release-keys
 vendor/lib/hw/camera.sdm660.so|42c0cdb3590faef90b58c6b12a9ec4e2108edead
 vendor/lib/libmmcamera_stillmore_lib.so|72ddda5608ee9f2d14f3e7321c992c3aa3dbdcf7
