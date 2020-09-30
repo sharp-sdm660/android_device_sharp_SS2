@@ -190,6 +190,10 @@ vendor/lib/libmmcamera_stillmore_lib.so|72ddda5608ee9f2d14f3e7321c992c3aa3dbdcf7
 # Charger
 vendor/bin/hvdcp_opti
 
+# Fingerprint
+system/lib64/com.fingerprints.extension@1.0.so:vendor/lib64/com.fingerprints.extension@1.0.so
+vendor/bin/hw/android.hardware.biometrics.fpc@2.1-service
+
 # Firmware
 vendor/firmware/a508_zap.b00
 vendor/firmware/a508_zap.b01
