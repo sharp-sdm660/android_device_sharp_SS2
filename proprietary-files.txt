@@ -200,15 +200,6 @@ vendor/firmware/a508_zap.b01
 vendor/firmware/a508_zap.b02
 vendor/firmware/a508_zap.mdt
 vendor/firmware/a508_zap.elf
-vendor/firmware/elanfp64.b00
-vendor/firmware/elanfp64.b01
-vendor/firmware/elanfp64.b02
-vendor/firmware/elanfp64.b03
-vendor/firmware/elanfp64.b04
-vendor/firmware/elanfp64.b05
-vendor/firmware/elanfp64.b06
-vendor/firmware/elanfp64.b07
-vendor/firmware/elanfp64.mdt
 vendor/firmware/fpctzappfingerprint.mdt
 vendor/firmware/fpctzappfingerprint.b00
 vendor/firmware/fpctzappfingerprint.b01
@@ -218,14 +209,6 @@ vendor/firmware/fpctzappfingerprint.b04
 vendor/firmware/fpctzappfingerprint.b05
 vendor/firmware/fpctzappfingerprint.b06
 vendor/firmware/fpctzappfingerprint.b07
-vendor/firmware/TP_Firmware_FT8716.bin
-vendor/firmware/TP_Firmware_FT8716_S2.bin
-vendor/firmware/TFA9891_pl2.cnt
-vendor/firmware/TFA9891_pl2.ini
-vendor/firmware/TFA9891_sd1.cnt
-vendor/firmware/TFA9891_sd1.ini
-vendor/firmware/TFA9891_sd1_dvt.cnt
-vendor/firmware/TFA9891_sd1_dvt.ini
 
 # NFC
 vendor/firmware/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so
