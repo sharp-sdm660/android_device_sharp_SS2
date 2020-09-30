@@ -182,6 +182,7 @@ vendor/lib/libmmcamera2_sensor_modules.so|cb3b69c15b2998d17b26f60202f7e475d5746c
 
 # Camera (Module) - From - HH6_00WW_FIH-user-10-QKQ1.190828.002-FS8032T0305Q-release-keys
 vendor/lib/hw/camera.sdm660.so|0ef02e017b2085342f75830c859c40bda4d4d7b4
+vendor/lib/libmmcamera_stillmore_lib.so|72ddda5608ee9f2d14f3e7321c992c3aa3dbdcf7
 
 # Charger
 vendor/bin/hvdcp_opti
