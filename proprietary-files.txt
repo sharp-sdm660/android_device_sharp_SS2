@@ -212,3 +212,18 @@ vendor/firmware/fpctzappfingerprint.b07
 
 # NFC
 vendor/firmware/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so
+
+# Sensors - From - HH6_00WW_FIH-user-10-QKQ1.190828.002-FS8032T0305Q-release-keys
+vendor/bin/sensors.qti|22ec8324135d0e30cb38184b08fe8cdd34b8062f
+vendor/etc/sap.conf|afbcbacb367b2fcc05efcad76ef096d794e768ba
+vendor/lib/libsensor1.so|eda6e90d558ca58d8594beaa55f034ad76345a11
+vendor/lib/libsensor_reg.so|b129ced641434911227e5bf84301b9ea0b880e1c
+vendor/lib/sensor_calibrate.so|f8c00ed0e0b88a5dc8cc1dc32e4e523172fe2cf4
+vendor/lib/sensors.ssc.so|729850f6324c8ce7ec15b478d8212414c2c068bb
+vendor/lib64/libsensor1.so|2bd2d14dc03b07a088c71af52709e33784de6567
+vendor/lib64/libsensor_reg.so|185a769d380071cdb8e4fdf0f2982572dc4dba59
+vendor/lib64/sensor_calibrate.so|4e7d0ca365681521067d9cff655299028b50032d
+vendor/lib64/sensors.ssc.so|847e62a8ee1563ef19a20f5a9cbb214250cf0107
+
+# Sensor (Configs) - From - HH6_00WW_FIH-user-10-QKQ1.190828.002-FS8032T0305Q-release-keys
+vendor/etc/sensors/sensor_def_qcomdev_s2.conf|836949e5a85797c1dd6ff5cb888f5d83b9f9db36
